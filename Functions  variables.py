@@ -84,3 +84,30 @@
 # # Say hello to the user
 # print(f"Hello, {first}")
 
+# def hello(to):
+#     print("Hello there ")
+
+
+# name = input("What's your name? ")
+# hello()
+# print(name)
+
+
+# def main():
+#     name = input("What's your name? ")
+#     hello(name)
+
+# def hello(to="World"):
+#     print("Hello,",to)
+
+# main()
+
+
+def main():
+    name = input("What's your first name? ")
+    hello(name)
+
+def hello(to):
+    print("Hi there",to)
+
+main()
